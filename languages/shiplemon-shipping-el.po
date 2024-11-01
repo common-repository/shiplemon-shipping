@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shiplemon shipping\n"
+"POT-Creation-Date: 2022-08-12 15:25+0300\n"
+"PO-Revision-Date: 2022-08-12 15:25+0300\n"
+"Last-Translator: Spyros Vlachopoulos <info@nitroweb.gr>\n"
+"Language-Team: Spyros Vlachopoulos <info@nitroweb.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: shiplemon-shipping.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-shiplemon-wc-shipping-method.php:30
+#: includes/class-shiplemon-wc-shipping-method.php:32
+msgid "Shiplemon"
+msgstr "Shiplemon"
+
+#: includes/class-shiplemon-wc-shipping-method.php:34
+msgid ""
+"Do you need help? Contact as at <a href=\"http://www.shiplemon.com\">www."
+"shiplemon.com</a>"
+msgstr ""
+"Για υποστήριξη, επικοινωνήστε μαζί μας <a href=\"http://www.shiplemon.com"
+"\">www.shiplemon.com</a>"
+
+#: includes/class-shiplemon-wc-shipping-method.php:186
+#: includes/class-shiplemon-wc-shipping-method.php:345
+#, php-format
+msgid "Invalid API response code(%d)."
+msgstr "Μη έγκυρος κωδικός απάντησης API (%d)."
+
+#: includes/shiplemon-helpers.php:19
+msgid "API URL"
+msgstr "API URL"
+
+#: includes/shiplemon-helpers.php:25
+msgid "API Key"
+msgstr "Κλειδί API"
+
+#: includes/shiplemon-helpers.php:29
+msgid "Days to deliverance"
+msgstr "Ημέρες παράδοσης"
+
+#: includes/shiplemon-helpers.php:30
+msgid "Show this text:"
+msgstr "Να εμφανίζεται το κείμενο:"
+
+#: includes/shiplemon-helpers.php:37 includes/shiplemon-helpers.php:39
+#, php-format
+msgid "To be delivered in %d working days"
+msgstr "Παράδοση σε %d εργάσιμες ημέρες"
+
+#: includes/shiplemon-helpers.php:42
+#, php-format
+msgid "On this text use the \"%d\" to display the number of days"
+msgstr ""
+"Στο κείμενο πρέπει να υπάρχει το σύμβολο \"%d\" για να εμφανίζεται στην θέση "
+"του ο αριθμός των ημερών"
+
+#: includes/shiplemon-helpers.php:46
+msgid "Default product weight when not set (in grams)"
+msgstr "Bάρος προϊόντος όταν δεν υπάρχει βάρος (σε γραμμάρια)"
+
+#: includes/shiplemon-helpers.php:47
+msgid "500"
+msgstr "500"
+
+#: includes/shiplemon-helpers.php:49
+msgid ""
+"Set the default weight for any product that does not have it set. The weight "
+"must be set in grams."
+msgstr ""
+"Προκαθορισμένο βάρος για τo κάθε προιόν αν δεν έχει βάρος στις ρυθμίσεις του "
+"προϊόντος. Βάρος σε γραμμάρια."
+
+#: includes/shiplemon-helpers.php:53
+msgid "Default package height"
+msgstr "Προκαθορισμένο ύψος δέματος"
+
+#: includes/shiplemon-helpers.php:54 includes/shiplemon-helpers.php:61
+msgid "20"
+msgstr "20"
+
+#: includes/shiplemon-helpers.php:56
+msgid "Default height of package (in cm) for cost calculation."
+msgstr ""
+"Προκαθορισμένο ύψος (σε cm) δέματος για την εκτίμηση τιμής μεταφορικών."
+
+#: includes/shiplemon-helpers.php:60
+msgid "Default package width"
+msgstr "Προκαθορισμένο πλάτος δέματος"
+
+#: includes/shiplemon-helpers.php:63
+msgid "Default width of package (in cm) for cost calculation."
+msgstr ""
+"Προκαθορισμένο πλάτος (σε cm) δέματος για την εκτίμηση τιμής μεταφορικών."
+
+#: includes/shiplemon-helpers.php:67
+msgid "Default package length"
+msgstr "Προκαθορισμένο μήκος δέματος"
+
+#: includes/shiplemon-helpers.php:68
+msgid "10"
+msgstr "10"
+
+#: includes/shiplemon-helpers.php:70
+msgid "Default length of the package (in cm) for cost calculation."
+msgstr ""
+"Προκαθορισμένο μήκος (σε cm) δέματος για την εκτίμηση τιμής μεταφορικών."
+
+#: includes/shipping-method-hooks.php:93
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/shipping-method-hooks.php:129
+msgid "Your Shiplemon API KEY is missing"
+msgstr "Το κλειδί API για το Shiplemon δεν έχει οριστεί"
+
+#: includes/shipping-method-hooks.php:130
+msgid "Click here to add one."
+msgstr "Κάντε κλικ εδώ για να το προσθέσετε."
+
+#. Plugin Name of the plugin/theme
+msgid "Shiplemon shipping"
+msgstr "Shiplemon shipping"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/shiplemon-shipping/"
+msgstr "https://wordpress.org/plugins/shiplemon-shipping/"
+
+#. Description of the plugin/theme
+msgid "Shipping made easy. Just install the plugin and let us do the rest."
+msgstr ""
+"Μεταφορικά με τον εύκολο τρόπο. Ενεργοποιήστε το πρόσθετο και αφήστε τα "
+"υπόλοιπα πάνω μας."
+
+#. Author of the plugin/theme
+msgid "shiplemon"
+msgstr "shiplemon"
+
+#. Author URI of the plugin/theme
+msgid "https://www.shiplemon.com/"
+msgstr "https://www.shiplemon.com"
+
+#~ msgid "shiplemon.com"
+#~ msgstr "shiplemon.com"
